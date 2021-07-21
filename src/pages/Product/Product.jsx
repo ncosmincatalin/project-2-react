@@ -1,9 +1,11 @@
 import React from 'react';
-import Layout from '../components/Layout';
-import products from '../utils/products.json';
+import Layout from '../../components/Layout/Layout';
+import products from '../../utils/products.json';
 import './Product.css';
 import { connect } from 'react-redux';
-import { addToCart } from '../redux/actions/cart';
+import { addToCart } from '../../redux/cart/CartActions';
+import { ReactComponent as Favorites } from '../../assets/icons/favorites.svg';
+import { addToFavorites } from '../../redux/favorites/FavoritesActions';
 
 class Product extends React.Component {
     constructor(props) {
@@ -58,9 +60,22 @@ class Product extends React.Component {
                             >
                                 Adaugă în coș
                             </button>
-                            <p><span className="font-weight-bold">Mărime</span>: {product.size}</p>
-                            <p><span className="font-weight-bold">Culoare</span>: {product.colour}</p>
-                            <p><span className="font-weight-bold">Material</span>: {product.material}</p>
+                            <button
+                                className="btn d-flex align-items-center"
+                                onClick={() => {
+                                    this.props.addToFavorites({
+                                        product: {
+                                            id: product.id,
+                                            name: product.name,
+                                            price: product.price,
+                                            currency: product.currency,
+                                            image: product.image
+                                        }
+                                    })
+                                }}
+                            >
+                                <Favorites className="ml-2"/>
+                            </button>
                             <p><span className="font-weight-bold">Brand</span>: {product.brand}</p>
                             <p className="font-weight-bold mb-1">Descriere:</p>
                             <p>{product.description}</p>
@@ -74,7 +89,8 @@ class Product extends React.Component {
 
 function mapDispatchToProps(dispatch) {
     return {
-        addToCart: (payload) => dispatch(addToCart(payload))
+        addToCart: (payload) => dispatch(addToCart(payload)),
+        addToFavorites: (payload) => dispatch(addToFavorites(payload))
     }
 }
 

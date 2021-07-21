@@ -1,17 +1,18 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import Logo from '../assets/images/logo.png';
-import { ReactComponent as ShoppingCart } from '../assets/icons/shopping-cart.svg';
+import Logo from '../../assets/images/logo.png';
+import { ReactComponent as ShoppingCart } from '../../assets/icons/shopping-cart.svg';
+import { ReactComponent as Favorites } from '../../assets/icons/favorites.svg';
 import './Header.css';
 import { connect } from 'react-redux';
-import { logoutUser } from '../redux/actions/user';
+import { logoutUser } from '../../redux/user/UserActions';
 
 function Header(props) {
     return(
         <header className="border-bottom mb-3">
             <div className="container-fluid container-min-max-width d-flex justify-content-between align-items-center">
                 <Link to="/" className="my-3">
-                    <img src={Logo} alt="Sirluggia Shop" className="logo"/>
+                    <img src={Logo} alt="PC Garbage" className="logo"/>
                 </Link>
                 <div>
                     { props.user
@@ -27,6 +28,11 @@ function Header(props) {
                             <Link to="/cart" className="d-flex">
                                 <ShoppingCart className="ml-2"/>
                                 <p className="ml-1 mb-0">{ props.numberOfProducts }</p>
+                            </Link>
+                        </div>
+                        <div className="d-flex align-items-center">
+                            <Link to="/favorites" className="d-flex">
+                                <Favorites className="ml-2"/>
                             </Link>
                         </div>
                     </div>

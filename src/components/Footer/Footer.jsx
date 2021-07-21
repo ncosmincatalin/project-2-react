@@ -1,9 +1,9 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { ReactComponent as Phone } from '../assets/icons/phone.svg';
-import { ReactComponent as Mail } from '../assets/icons/mail.svg';
-import { ReactComponent as GitHub } from '../assets/icons/github.svg';
-import { ReactComponent as LinkedIn } from '../assets/icons/linkedin.svg';
+import { ReactComponent as Phone } from '../../assets/icons/phone.svg';
+import { ReactComponent as Mail } from '../../assets/icons/mail.svg';
+import { ReactComponent as GitHub } from '../../assets/icons/github.svg';
+import { ReactComponent as LinkedIn } from '../../assets/icons/linkedin.svg';
 import './Footer.css';
 
 function Footer() {
@@ -18,9 +18,9 @@ function Footer() {
                 <div className="footer-group">
                     <h3 className="h5">Contactează-mă:</h3>
                     <p className="m-0">
-                        <a href="mailto:razvan.cirlugea@gmail.com">
+                        <a href="mailto:neagucosmin1469@gmail.com">
                             <Mail className="mr-1 mb-1 footer-icon"/>
-                            razvan.cirlugea@gmail.com
+                            neagucosmin1469@gmail.com
                         </a>
                     </p>
                     <p className="m-0"><Phone className="mr-1 footer-icon"/>+40722228282</p>
@@ -28,21 +28,21 @@ function Footer() {
                 <div className="footer-group">
                     <h3 className="h5">Contactează-mă:</h3>
                     <p className="m-0">
-                        <a href="https://github.com/razvancir96">
+                        <a href="https://github.com/ncosmincatalin">
                             <GitHub className="mr-1 mb-1 footer-icon"/>
-                            razvancir96
+                            ncosmincatalin
                         </a>
                     </p>
                     <p className="m-0">
-                        <a href="https://www.linkedin.com/in/razvancirlugea/">
+                        <a href="https://www.linkedin.com/in/cosmin-neagu-2860ab204/">
                             <LinkedIn className="mr-1 footer-icon"/>
-                            razvancirlugea
+                            work in progress
                         </a>
                     </p>
                 </div>
             </div>
             <div className="text-center py-3">
-                &copy; Răzvan Cîrlugea, 2019
+                &copy; Cosmin Neagu, 2021
             </div>
         </footer>
     );
