@@ -1,236 +1,188 @@
 {
-    "shoes": {
+    "placi-video": {
         "items": [
             {
                 "id": 1,
-                "name": "Sneakerși piele Massimo Dutti",
-                "price": 135,
+                "name": "Placă video ASUS GeForce RTX 3090 ROG STRIX O24G 24GB GDDR6X 384-bit",
+                "price": 19.999,
                 "currency": "LEI",
-                "image": "https://i.imgur.com/Rz8lVQa.jpg",
-                "size": 45,
-                "colour": "Negru",
-                "material": "Piele",
-                "brand": "Massimo Dutti",
-                "description": "Sneakerși din piele cu talpă inițial albă, din colecția de toamnă-iarnă 2019, Massimo Dutti."
+                "image": "https://i.imgur.com/66NX6sm.png",
+                "brand": "ASUS",
+                "description": "De sus in jos, ROG Strix GeForce RTX ™ 3090 a fost imbunatatit radical pentru a gazdui impresionantele noi cipuri Ampere de la NVIDIA si pentru a furniza pe piata urmatorul val de inovatie in ceea ce priveste performanta jocurilor. Un design nou si mai mult metal inconjoara o grupare de fani Axial-tech. Aspectul uniform al ventilatoarelor din ultima generatie a fost uzurpat de o noua schema de rotatie si de roluri specializate pentru ventilatoarele centrale si auxiliare. Sub lame, un radiator mai mare si mai impresionant este pregatit pentru cele mai solicitante sarcini termice. PCB-ul are cateva trucuri noi in maneca si chiar si placa din spate a primit unele modificari de crestere a performantei. Ati asteptat cel mai recent si cel mai bun design GPU - si acesta este."
             },
             {
                 "id": 2,
-                "name": "Teniși negri Polo Ralph Lauren",
-                "price": 100,
+                "name": "Placă video MSI GeForce RTX 3070 GAMING X TRIO 8GB GDDR6 256-bit",
+                "price": 7.499,
                 "currency": "LEI",
-                "image": "https://i.imgur.com/Og3Oh24.jpg",
-                "size": 45,
-                "colour": "Negru",
-                "material": "Pânză",
-                "brand": "Polo Ralph Lauren",
-                "description": "Teniși din pânză cu talpă inițial albă, din colecția de primăvară-vară 2019, Fashion Days."
+                "image": "https://i.imgur.com/x1ipkVI.jpg",
+                "brand": "MSI",
+                "description": "Placile video din seria RTX 30 aduce performanta ultima pentru creatorii de continut si gameri. Acestea sunt alimentate de Ampere - a doua generatie a arhitecturii RTX - cu noi nuclee RT, Tensor Cores si multiprocesoare de streaming pentru ray tracing mai realist si functionalitate AI de ultima ora."
             },
             {
                 "id": 3,
-                "name": "Ghete din piele maro Massimo",
-                "price": 185,
+                "name": "Placă video GIGABYTE GeForce RTX 2060 D6 6GB GDDR6 192-bit",
+                "price": 3.999,
                 "currency": "LEI",
-                "image": "https://i.imgur.com/zoqSu87.jpg",
-                "size": 45,
-                "colour": "Maro",
-                "material": "Piele",
-                "brand": "Massimo Dutti",
-                "description": "Ghete maro din piele, din colecția de toamnă-iarnă 2017, Massimo Dutti."
+                "image": "https://i.imgur.com/wgTWfAT.jpg",
+                "brand": "GIGABYTE",
+                "description": "Brevetul GIGABYTE 'Alternate Spinning' este singura solutie care poate rezolva fluxul turbulent de aer al ventilatoarelor adiacente. Deoarece ventilatoarele adiacente se rotesc in aceeasi directie, directia fluxului de aer este opusa intre ventilatoare, ceea ce determina un flux de aer turbulent si reduce eficienta disiparii caldurii. GIGABYTE roteste ventilatoarele adiacente in directia opusa, astfel incat directia fluxului de aer dintre cele doua ventilatoare sa fie aceeasi, reducand turbulenta si sporind presiunea aerului."
             }
         ],
-        "image": "https://i.imgur.com/X0qldXO.jpg",
-        "name": "Încălțăminte",
-        "description": "Ghete, pantofi, sneakerși: finețe garantată!"
+        "image": "https://i.imgur.com/U6di5yV.jpg",
+        "name": "Plăci video",
+        "description": "Unealta nr.1 pentru gameri și nu numai!"
     },
-    "sweaters": {
+    "procesoare": {
         "items": [
             {
                 "id": 4,
-                "name": "Pulovăr finuț cu guler",
-                "price": 95,
+                "name": "Procesor AMD Ryzen 5 3600 3.6GHz",
+                "price": 999,
                 "currency": "LEI",
-                "image": "https://i.imgur.com/6afzuEr.jpg",
-                "size": "L",
-                "colour": "Maro",
-                "material": "Cașmir",
-                "brand": "DS Damat",
-                "description": "Pulovăr din cașmir, slim fit, colecția toamnă-iarnă 2019, DS Damat."
+                "image": "https://i.imgur.com/kWfBiFX.jpg",
+                "brand": "AMD",
+                "description": "Viteze mai mari. Mai multa memorie. Latime de banda mai mare. Procesorul Ryzen AMD Ryzen 3rd Gen a fost conceput pentru a depasi  asteptarile si pentru a stabili un nou standard pentru procesoare de inalta performanta."
             },
             {
                 "id": 5,
-                "name": "Pulovăr multicolor",
-                "price": 105,
+                "name": "Procesor Intel Coffee Lake, Core i5 9400F 2.9GHz",
+                "price": 679,
                 "currency": "LEI",
-                "image": "https://i.imgur.com/s0VytKc.jpg",
-                "size": "L",
-                "colour": "Multicolor",
-                "material": "Bumbac",
-                "brand": "McNeal",
-                "description": "Pulovăr multicolor, colecția toamnă-iarnă 209, McNeal."
+                "image": "https://i.imgur.com/AdJXwpt.png",
+                "brand": "Intel",
+                "description": "Computerele desktop si dispozitivele mobile pot lucra mai mult, pot porni mai repede si pot sustine grafica la rezolutii mari datorita procesoarelor din seria Intel Core. A 9-a generatie Intel Core va ofera experiente impresionante in jocuri si aplicatii complexe. Va puteti juca si lucra fluent, intr-un mediu cu timpi de raspuns foarte mici."
             },
             {
                 "id": 6,
-                "name": "Pulovăr călduros și frumos",
-                "price": 165,
+                "name": "Procesor Intel Rocket Lake, Core i9 11900K 3.5GHz",
+                "price": 2859,
                 "currency": "LEI",
-                "image": "https://i.imgur.com/BWGgzlK.jpg",
-                "size": "L",
-                "colour": "Multicolor",
-                "material": "Lână",
-                "brand": "SELECTED",
-                "description": "Pulovăr din lână, în carouri, colecția toamnă-iarnă 2019, SELECTED."
+                "image": "https://i.imgur.com/hOCLvEA.jpg",
+                "brand": "Intel",
+                "description": "Viteza rapida si numarul mare de nuclee functioneaza perfect pentru a obtine mai mult din jocurile competitive si crearea de continut complex."
             },
             {
                 "id": 7,
-                "name": "Pulovăr din lână",
-                "price": 160,
+                "name": "Procesor AMD Ryzen Threadripper 1950X 3.4GHz",
+                "price": 4137,
                 "currency": "LEI",
-                "image": "https://i.imgur.com/dTcMbHT.jpg",
-                "size": "L",
-                "colour": "Crem",
-                "material": "Lână",
-                "brand": "Massimo Dutti",
-                "description": "Pulovăr din lână cu model, colecția toamnă-iarnă 2019, Massimo Dutti."
+                "image": "https://i.imgur.com/mlDel3N.jpg",
+                "brand": "AMD",
+                "description": "Arhitectura AMD de inalta performanta x86 Zen ofera o imbunatatire de 52% in IPC peste generatia anterioara AMD, cu un consum redus."
             }
         ],
-        "image": "https://i.imgur.com/SZU7liE.jpg",
-        "name": "Pulovere",
-        "description": "Pulovărașe elegănțele, slim, clasă superioară."
+        "image": "https://i.imgur.com/HYQWWK8.jpg",
+        "name": "Procesoare",
+        "description": "Adaugă-i niște mușchi PC-ului tău făcând upgrade la un procesor mai nou!"
     },
-    "pants": {
+    "placi-de-baza": {
         "items": [
             {
                 "id": 8,
-                "name": "Blugi bleumarin slim fit",
-                "price": 35,
+                "name": "Placă de bază ASUS Z590 ROG MAXIMUS XIII HERO",
+                "price": 2521,
                 "currency": "LEI",
-                "image": "https://i.imgur.com/VhpATO8.jpg",
-                "size": "34",
-                "colour": "Bleumarin închis",
-                "material": "Blug",
-                "brand": "DS Damat",
-                "description": "Blugi bleumarin, slim fit, colecția primăvară-vară 2019, DS Damat."
+                "image": "https://i.imgur.com/g46Ytej.jpg",
+                "brand": "ASUS",
+                "description": "ROG Maximus XIII Hero este temelia perfecta a Republicii Gamerilor. Este o placa de baza care impacheteaza o putere substantiala, racire inteligenta si un suport de memorie mai rapid intr-un aspect subtil. Incarcat cu caracteristici renumite ROG, de la overclocking AI si racire AI pana la iluminarea Aura Sync, Maximus XII Hero este pregatit pentru a fi performat si usor de personalizat."
             },
             {
                 "id": 9,
-                "name": "Blugi negri slim fit",
-                "price": 40,
+                "name": "Placă de bază GIGABYTE Z590I AORUS ULTRA",
+                "price": 1307,
                 "currency": "LEI",
-                "image": "https://i.imgur.com/weiI07t.jpg",
-                "size": "34",
-                "colour": "Negru-gri",
-                "material": "Blug",
-                "brand": "DS Damat",
-                "description": "Blugi negri, slim fit, colecția toamnă-iarnă 2019, DS Damat."
+                "image": "https://i.imgur.com/Xm5a0zR.jpg",
+                "brand": "GIGABYTE",
+                "description": "Z590I AORUS ULTRA este o placa de baza mini-ITX perfecta pentru construirea unui PC cu factor de forma mic pentru persoanele care cer performante mai mari, dar le pasa si de estetica si dimensiuni. PC-ul compact, dar puternic, ofera performante uimitoare cu cel mai recent CPU de generatia a 11-a, placa grafica cu doua sloturi si conectivitate extrem de rapida. De asemenea, este echipat cu o solutie termica cuprinzatoare pentru a-l mentine rece in conditii de sarcina de lucru intensa. Performanta nu este compromisa de dimensiunea sa."
             }
         ],
-        "image": "https://i.imgur.com/srQCDRN.jpg",
-        "name": "Pantaloni/blugi",
-        "description": "Jeanși și pantaloni pentru baieții care și-o ard patroni!"
+        "image": "https://i.imgur.com/zWhgIvA.jpg",
+        "name": "Plăci de bază",
+        "description": "Placa de bază reprezintă elementul de legatură dintre toate componentele calculatorului."
     },
-    "jackets": {
+    "ssd": {
         "items": [
             {
                 "id": 10,
-                "name": "Haină lungă din lână virgină",
-                "price": 210,
+                "name": "SSD Samsung 970 EVO Plus 500GB PCI Express 3.0 x4 M.2 2280",
+                "price": 510,
                 "currency": "LEI",
-                "image": "https://i.imgur.com/IXrZitQ.jpg",
-                "size": "L",
-                "colour": "Gri închis",
-                "material": "Lână virgină",
-                "brand": "Peek and Cloppenburg",
-                "description": "Haină lungă din lână virgină, colecția toamnă-iarnă 2018, Peek and Cloppenburg."
+                "image": "https://i.imgur.com/HlsiMJe.jpg",
+                "brand": "Samsung",
+                "description": "Performanta maxima, modernizata. Mai rapid decat modelul 970 EVO, modelul 970 EVO Plus este alimentat de cea mai recenta tehnologie V-NAND si de optimizare a firmware-ului. Maximizeaza potentialul latimii de banda NVMe pentru unitati cu capacitati de pana la 2TB, cu o fiabilitate de pana la 1200 TBW."
             },
             {
                 "id": 11,
-                "name": "Geacă bleumarin cu glugă detașabilă",
-                "price": 250,
+                "name": "SSD WD Blue 3D NAND 500GB SATA-III 2.5 inch",
+                "price": 271,
                 "currency": "LEI",
-                "image": "https://i.imgur.com/eCZd7PU.jpg",
-                "size": "L",
-                "colour": "Bleumarin",
-                "material": "Poliester",
-                "brand": "DS Damat",
-                "description": "Geacă bleumarin cu glugă detașabilă, colecția toamnă-iarnă 2019, DS Damat."
+                "image": "https://i.imgur.com/0IuCk4c.jpg",
+                "brand": "WD",
+                "description": "Un SSD este proiectat fara componente in miscare pentru a proteja impotriva pierderii de date daca este accidentat lovit sau scapat. Cu un MTTF (timp mediu pana la defectare) de 1.75 milioane ore, pana la 500 TBW (cu terabyte scrise) 5 si cateva tehnologii de corectare a erorilor, SSD-urile ND SATA WD Blue 3D pot ajuta la pastrarea datelor pentru anii urmatori."
             }
         ],
-        "image": "https://i.imgur.com/81I6Oab.jpg",
-        "name": "Geci/Haine",
-        "description": "Confortabile, călduroase și nu arăți ca un cartof!"
+        "image": "https://i.imgur.com/Jg98Qco.jpg",
+        "name": "SSDuri",
+        "description": "Aici e viteza!"
     },
-    "tshirts": {
+    "carcase": {
         "items": [
             {
                 "id": 12,
-                "name": "Tricou în dungi",
-                "price": 90,
+                "name": "Carcasa NZXT H510i Matte Black",
+                "price": 521,
                 "currency": "LEI",
-                "image": "https://i.imgur.com/BWvzCwB.jpg",
-                "size": "L",
-                "colour": "Multicolor",
-                "material": "Bumbac",
-                "brand": "Lacoste",
-                "description": "Tricou în dungi, colecția primăvară-vară 2019, Lacoste."
+                "image": "https://i.imgur.com/PmKPOY9.jpg",
+                "brand": "NZXT",
+                "description": "Noua noastra gama prezinta in continuare elementele constructorilor indragite in seria H originala, inclusiv sistemul nostru brevetat de gestionare a cablurilor, suporturile de fixare amovibile / radiatorul si tavile de actionare usor de utilizat, alaturi de noi actualizari precum un conector USB-C al panoului frontal. Suporta dispozitive USB 3.1 Gen 2 de mare viteza si are un panou lateral din sticla temperata, care se instaleaza cu un singur surub, si un dispozitiv Smart V2 modernizat pe H510i."
             },
             {
                 "id": 13,
-                "name": "Tricou de ping pong",
-                "price": 110,
+                "name": "Carcasa Deepcool Matrexx 55 V3 ADD-RGB 3F",
+                "price": 368,
                 "currency": "LEI",
-                "image": "https://i.imgur.com/4BbF4TO.jpg",
-                "size": "L",
-                "colour": "Roșu",
-                "material": "Poliester",
-                "brand": "Li Ning",
-                "description": "Tricou de ping pong cu imprimeu cu dragon, purtat de jucatorii naționalei chinei în 2013."
+                "image": "https://i.imgur.com/SmV7Ctq.jpg",
+                "brand": "Deepcool",
+                "description": "Vine cu un sistem RGB care se poate extinde si include o banda RGB in fata preinstalata care este usor de controlat cu manul cu ajutorul butonului dedicat sau prin placa de baza."
             },
             {
                 "id": 14,
-                "name": "Tricou original BVB cu autograf",
-                "price": 1909,
+                "name": "Carcasa ASUS TUF Gaming GT501",
+                "price": 807,
                 "currency": "LEI",
-                "image": "https://i.imgur.com/etIsbHV.jpg",
-                "size": "L",
-                "colour": "Galben-Negru",
-                "material": "Poliester",
-                "brand": "Puma",
-                "description": "Tricoul purtat de Borussia Dortmund în sezonul competițional 2018-2019, cu numarul 7 și numele 'SANCHO'. Tricoul este semnat de portarul Borussiei, Roman Burki."
+                "image": "https://i.imgur.com/MfkoXnl.png",
+                "brand": "ASUS",
+                "description": "Cu un panou lateral pe toata inaltimea din sticla fumurie, TUF Gaming GT501 va permite sa va prezentati sistemul de sus pana jos - astfel incat componentele dvs., personalizarile si iluminarile Aura sunt vizibile in totalitate. Acest panou este securizat pentru rezistenta si prins in balamale la partea inferioara pentru a usura deschiderea."
             }
         ],
-        "image": "https://i.imgur.com/l27WtFL.jpg",
-        "name": "Tricouri",
-        "description": "Și de băiețeală și de sport."
+        "image": "https://i.imgur.com/jXgd8bO.jpg",
+        "name": "Carcase",
+        "description": "PC-ul tău merită să arate bine!"
     },
-    "accesories": {
+    "memorii-ram": {
         "items": [
             {
                 "id": 15,
-                "name": "Fular TJ cu două fețe",
-                "price": 85,
+                "name": "Memorie HyperX Fury Black 8GB DDR4 2666MHz CL16",
+                "price": 229,
                 "currency": "LEI",
-                "image": "https://i.imgur.com/rSVUiLO.jpg",
-                "size": "Universal",
-                "colour": "Gri-Bleumarin",
-                "material": "Cașmir",
-                "brand": "Trussardi Jeans",
-                "description": "Fular cu imprimeu, din colecția toamnă-iarnă 2018, Trussardi Jeans."
+                "image": "https://i.imgur.com/gGOHqXM.jpg",
+                "brand": "HyperX",
+                "description": "HyperX® FURY DDR4 ajunge la cea mai mare frecventa publicata, pana la 3466MHz, oferind un impuls Plug N Play pentru jocuri, editare video si redare. FURY DDR4 este pregatit pentru XMP si disponibil in viteze de 2400 MHz – 3466 MHz, latente CL15–16, capacitati de un singur modul de 4 GB – 16 GB si seturi de kit de 16 GB – 64 GB. Dispune de overclocking automat Plug N Play la viteze de 2400 MHz si 2666 MHz si este compatibil cu cele mai noi procesoare Intel si AMD. HyperX FURY DDR4 ramane rece cu distribuitorul sau de caldura elegant, cu profil scazut. 100% testat la viteza si sustinut de o garantie pe viata, FURY DDR4 este alegerea dumneavoastra fara griji si rentabila."
             },
             {
                 "id": 16,
-                "name": "Mănuși din piele",
-                "price": 60,
+                "name": "Memorie G.Skill Trident Z Royal RGB Gold 64GB DDR4 2666MHz CL19 1.2v Dual Channel Kit",
+                "price": 1779,
                 "currency": "LEI",
-                "image": "https://i.imgur.com/LbjGaZ1.jpg",
-                "size": "L",
-                "colour": "Negru",
-                "material": "Piele",
-                "brand": "DS Damat",
-                "description": "Mănuși din piele, cu model, din colecția toamnă-iarnă 2018, DS Damat."
+                "image": "https://i.imgur.com/HYNd2AU.jpg",
+                "brand": "G.Skill",
+                "description": "F4-3200C14D-16GTZR"
             }
         ],
-        "image": "https://i.imgur.com/qw3wDj8.jpg",
-        "name": "Accesorii",
-        "description": "Fulare, căciuli, mănuși: nu mai sta pe gânduri, cumpără-le acuși!"
+        "image": "https://i.imgur.com/WKdGxHi.jpg",
+        "name": "Memorii RAM",
+        "description": "Mâncare pentru Chrome!"
     }
 }
