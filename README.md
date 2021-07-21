@@ -4,55 +4,8 @@ Magazinul online react-siluggia-shop este cel de-al doilea proiect din cadrul cu
 
 Pentru toate detaliile legate de curs, pteti accesa link-ul urmator: https://www.telacad.ro/cursuri/cooming-soon-curs-javascript-advanced-react/.
 
-## Demo
 
-Puteti accesa proiectul prin link-ul următor:
-
-https://react-sirluggia-shop.herokuapp.com/ 
-
-
-## Functionalitati
-
-* Click pe orice categorie - va lista produsele corespunzatoare
-
-* Click pe butonul "Adauga in cos" al fiecarui produs(fie din pagina de categorie, fie din pagina de produs) - produsul va fi adaugat in cos. Iconita corepsunzatoare se actualizeaza daca produsul nu exista deja in cos
-
-* Click pe produs - va duce catre pagina produsului
-
-* Click pe "Logare" - va redirecta catre pagina de Login, unde la click pe butonul "Logare cu Google" veti fi redirectionati catre pagina corespunzatoare
-
-* Click pe cos(iconita) - va afisa produsele adaugate in cos. La click pe iconita "X" puteti elimina un produs din cos
-
-
-## Pentru a rula local proiectul
-
-1. `git clone https://github.com/razvancir96/react-sirluggia-shop.git`
-
-2. `cd react-sirluggia-shop`
-
-3. `npm install` (posibil sa dureze)
-
-4. `npm start`
-
-
-## Sub-repository-uri
-
-Pentru a vedea progresiv cum a fost realizat acest proiect urmariti urmatoarele repo-uri. Comentariile/console.log-urile din fiecare fisier sunt specifice cursurului la care au fost facute. Versiunea finala este fara comentarii sau console.log-uri.
-
-* Cursul 5: https://github.com/razvancir96/react-curs05
-
-* Cursul 6: https://github.com/razvancir96/react-curs06
-
-* Cursul 7: https://github.com/razvancir96/react-curs07
-
-* Cursul 8: https://github.com/razvancir96/react-curs08
-
-* Cursul 9: https://github.com/razvancir96/react-curs09
-
-* Cursul 10: https://github.com/razvancir96/react-curs10
-
-
-## Cetinte
+## Cerinte
 
 Pentru a continua proiectul, avem urmatoarele cerinte:
 
@@ -71,3 +24,6 @@ De asemenea, pentru tipul actiunii, creati in fiecare folder un fisier de consta
 
 7. Modificati structura proiectului astfel: atat in componente, cat si in pagini, creati foldere noi, care sa contina toate fisierele corespunzatoare unei componente/pagini. De exemplu: pentru componenta Footer, se va crea un folder care va contine Footer.jsx si Footer.css.
 
+-----------
+
+Ce nu functioneaza: 4. Adaugati functionalitatea de logare cu Facebook(similar cu logare cu Google).
